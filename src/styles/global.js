@@ -1,6 +1,6 @@
 import { createGlobalStyle } from 'styled-components'
-import LGRegular from '../assets/fonts/LeagueGothic-Regular.woff2'
-import LGItalic from '../assets/fonts/LeagueGothic-Italic.woff2'
+import LGRegular from 'assets/fonts/LeagueGothic-Regular.woff2'
+import LGItalic from 'assets/fonts/LeagueGothic-Italic.woff2'
 
 const GlobalStyle = createGlobalStyle`
     @font-face {

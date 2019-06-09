@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { cards } from '../styles'
+import { cards } from 'styles'
 
 export default class Navbar extends Component {
     render() {

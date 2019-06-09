@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
-import { Navbar, Card } from '../components'
-import { containers, cards } from '../styles'
-import content from '../content'
+import { Navbar, Card } from 'components'
+import { containers } from 'styles'
+import content from 'content'
 
 export default class Home extends Component {
     render() {
