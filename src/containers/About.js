@@ -12,7 +12,7 @@ export default class About extends Component {
                         <video src={require('assets/media/about.mp4')} autoPlay={true} muted={true} loop={true}></video>
                     </about.content>
                     <about.content>
-                        <p>I am Théo Jullien, a 21 yo creative designer and student at <a href="http://hetic.net/" target="_blank">@Hetic.</a></p>
+                        <p>I am Théo Jullien, a 21 yo creative designer and student at <a href="http://hetic.net/" target="_blank" rel="noopener noreferrer">@Hetic.</a></p>
                         <p>I’m passionate about digital creation, working on interfaces, photo & video montages and logos.</p>
                         <p>Always available pour taper un foot sur le city <span role="img" aria-label="football">⚽</span></p>
                         <about.infos>
