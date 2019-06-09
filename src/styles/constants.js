@@ -1,9 +1,13 @@
 const colors = {
-    blue: '#0084FF'
+    red: '#EC4F55'
 }
 
 const sizes = {
-    container: '1440px'
+    container: {
+        large: '1440px',
+        medium: '768px',
+        small: '576px'
+    }
 }
 
 export {
