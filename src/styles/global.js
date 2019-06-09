@@ -20,7 +20,8 @@ const GlobalStyle = createGlobalStyle`
     @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
     * {
-        font-smoothing: antialiased;
+        -webkit-font-smoothing: antialiased;
+        -moz-font-smoothing: grayscale;
     }
 
     body {
