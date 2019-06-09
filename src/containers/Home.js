@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Navbar, Card } from 'components'
+import { Navbar, Card, Footer } from 'components'
 import { containers } from 'styles'
 import content from 'content'
 
@@ -18,6 +18,7 @@ export default class Home extends Component {
                         return <Card key={data.id} data={data} />
                     })}
                 </containers.cardslist>
+                <Footer />
             </containers.main>
         )
     }
