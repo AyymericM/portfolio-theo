@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled, { keyframes } from 'styled-components'
 import { sizes, colors } from './constants'
 
 const main = styled.div`
@@ -16,6 +16,18 @@ const main = styled.div`
         padding: 0 10px;
     }
 `
+
+const colorFlash = keyframes`
+    0% {
+        color: rgba(255, 255, 255, 0.3)
+    }
+    50% {
+        color: rgba(255, 255, 255, 1)
+    }
+    100% {
+        color: rgba(255, 255, 255, 0.3)
+    }
+`;
 
 const header = styled.div`
     position: relative;
@@ -40,6 +52,7 @@ const header = styled.div`
         bottom: 0;
         left: 0;
         text-transform: uppercase;
+        animation: ${colorFlash} 1s ease-out infinite
     }
 
     @media (max-width: ${sizes.container.medium}) {
