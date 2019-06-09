@@ -19,6 +19,10 @@ const content = styled.div`
     max-width: 50%;
     margin: 10px;
     font-size: 2rem;
+    & > p > a {
+        text-decoration: none;
+        color: ${colors.red};
+    }
     & > video {
         border-radius: 5px;
         width: 95%;

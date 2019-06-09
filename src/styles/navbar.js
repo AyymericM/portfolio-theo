@@ -22,7 +22,7 @@ const menuitems = styled.div`
     align-items: center;
     & > a {
         color: white;
-        font-size: 16px;
+        font-size: 20px;
         text-decoration: none;
         margin: 0 0 0 25px;
         transition: 0.2s;

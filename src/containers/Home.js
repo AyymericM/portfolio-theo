@@ -10,7 +10,7 @@ export default class Home extends Component {
                 <Navbar />
                 <containers.header>
                     <h1>Hey, I’m Théo Jullien.</h1>
-                    <h1>A French Creative Designer based on <span>St Michel sur Orge.</span> 🐮🌽</h1>
+                    <h1>A French Creative Designer based in <span>St Michel sur Orge.</span> 🐮🌽</h1>
                     <p>Scroll down</p>
                 </containers.header>
                 <containers.cardslist>
