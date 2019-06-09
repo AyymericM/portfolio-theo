@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import { colors } from './constants'
 
 const container = styled.div`
     height: 100px;
@@ -24,6 +25,10 @@ const menuitems = styled.div`
         font-size: 16px;
         text-decoration: none;
         margin: 0 0 0 25px;
+        transition: 0.2s;
+    }
+    & > a:hover {
+        color: ${colors.red};
     }
 `
 

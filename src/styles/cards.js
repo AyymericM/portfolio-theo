@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 import { sizes, colors } from './constants'
 
-const container = styled.div`
+const container = styled.a`
     position: relative;
     width: calc(50% - 20px);
     box-sizing: border-box;
@@ -26,6 +26,12 @@ const thumb = styled.img`
     height: 500px;
     object-fit: cover;
     border-radius: 5px;
+    will-change: transform;
+    transition: transform 0.2s cubic-bezier(0, 0, 0.35, 1.05);
+
+    &:hover {
+        transform: translateY(-5px);
+    }
 
     @media (max-width: ${sizes.container.large}) {
         height: 400px;

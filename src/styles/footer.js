@@ -3,7 +3,7 @@ import { sizes, colors } from './constants'
 
 const container = styled.div`
     position: relative;
-    height: 60vh;
+    height: 40vh;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -42,6 +42,7 @@ const container = styled.div`
 
     @media (max-width: ${sizes.container.small}) {
         font-size: 1.5rem;
+        height: 70vh;
         & > a {
             font-size: 2.5rem;
         }

@@ -39,6 +39,8 @@ const header = styled.div`
     align-items: flex-start;
     font-family: 'LG-Regular';
     font-size: 2.5rem;
+    box-sizing: border-box;
+    
     & > h1 {
         margin: 0;
         padding: 0;

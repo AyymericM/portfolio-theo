@@ -1,5 +1,6 @@
 const colors = {
-    red: '#EC4F55'
+    red: '#EC4F55',
+    darkred: '#B2373C'
 }
 
 const sizes = {
